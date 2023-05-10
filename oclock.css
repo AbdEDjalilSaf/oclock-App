@@ -1,0 +1,184 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background:linear-gradient(to bottom,#2987e4 50%,#16191e 50%);
+
+}
+.oclock{
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #16191e;
+    border-radius: 50%;
+    border:15px solid #242931;
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.2);
+    inset: 0 0 40px rgba(255,0,0,0.4);
+}
+
+.image{
+    position: relative;
+    /* padding: 15px; */
+    /* top: 50%;
+    left: 100%;
+    transform: translate(-50%,-50%); */
+}
+.image p{
+/* position: absolute; */
+color: #fff;
+}
+.image span{
+    position: absolute;
+    color: #fff;
+}
+.three{
+    position: absolute;
+    left: 89%;
+    /* bottom: 150%; */
+    margin-top: 168px;
+    font-size: 40px;
+}
+.sex{
+    position: absolute;
+    left: 47%;
+    /* bottom: 200%; */
+    margin-top: 332px;
+    font-size: 40px;
+}
+.nine{
+    position: absolute;
+    left: 5%;
+    /* bottom: -155%; */
+    margin-top: 163px;
+    font-size: 40px;
+}
+.twalve{
+    position: absolute;
+    left: 45%;
+    /* bottom: -155%; */
+    margin-top: -6px;
+    font-size: 40px;
+}
+.one{
+    width: 30px;
+    height: 10px;
+    left: 68%;
+    margin-top: 60px;
+    transform: rotate(-45deg);
+    background-color: #fff;
+}
+.two{
+    width: 30px;
+    height: 10px;
+    left: 82%;
+    margin-top: 127px;
+    transform: rotate(-35deg);
+    background-color: #fff;
+}
+.four{
+    width: 30px;
+    height: 10px;
+    left: 81%;
+    margin-top: 283px;
+    transform: rotate(31deg);
+    background-color: #fff;
+}
+.five{
+    width: 30px;
+    height: 10px;
+    left: 66%;
+    margin-top: 339px;
+    transform: rotate(51deg);
+    background-color: #fff;
+}
+.seven{
+    width: 30px;
+    height: 10px;
+    left: 25%;
+    margin-top: 56px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+.eight{
+    width: 30px;
+    height: 10px;
+    left: 9%;
+    margin-top: 118px;
+    transform: rotate(34deg);
+    background-color: #fff;
+}
+.ten{
+    width: 30px;
+    height: 10px;
+    left: 10%;
+    margin-top: 276px;
+    transform: rotate(-31deg);
+    background-color: #fff;
+}
+.elaven{
+    width: 30px;
+    height: 10px;
+    left: 25%;
+    margin-top: 338px;
+    transform: rotate(-51deg);
+    background-color: #fff;
+}
+.pointer{
+    width: 15px;
+    height: 15px;
+    left: 48%;
+    margin-top: 193px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.hand{
+    position: absolute;
+    background: #fff;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.houre{
+    width: 10px;
+    height: 70px;
+    top: 135px;
+}
+.minute{
+    width: 5px;
+    height: 90px;
+    top: 113px;
+}
+.second{
+    width: 4px;
+    height: 99px;
+    top: 105px;
+    background-color: #2987e4; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
